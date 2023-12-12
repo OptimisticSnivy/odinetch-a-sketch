@@ -1,3 +1,6 @@
+const colors = ["gold", "royalblue", "red"]
+
+let delegate = document.querySelector(".delegate");
 let gridContainer= document.createElement("div");
 gridContainer.className = "gridContainer"
 
@@ -12,6 +15,15 @@ for(let i=0; i<n; i++){
 }
 
 for(let i=0; i<n; i++){
-	document.body.appendChild(gridContainer.cloneNode(true));
+	delegate.appendChild(gridContainer.cloneNode(true));
 }
+
+let hover = document.body.querySelector(".delegate");
+hover.addEventListener('mouseover', function(event){
+	console.log("hover");
+	if (event.target.classList.contains("grid")) {
+		let randomColor = colors[Math.floor(Math.random() * colors.length)];
+		event.target.style.backgroundColor = randomColor;
+	}
+});
 

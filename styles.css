@@ -2,11 +2,6 @@ body{
     background-color: #1f2937;
 }
 
-a:hover{
-    color: grey;
-    transition: 0.3s;
-}
-
 .container{
     color: paleturquoise;
     display: flex;
@@ -31,5 +26,4 @@ a:hover{
     margin-top: 10px;
     background-color: paleturquoise;
 }
-
 
