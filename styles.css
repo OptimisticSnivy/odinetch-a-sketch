@@ -1,0 +1,35 @@
+body{
+    background-color: #1f2937;
+}
+
+a:hover{
+    color: grey;
+    transition: 0.3s;
+}
+
+.container{
+    color: paleturquoise;
+    display: flex;
+    font-size: 100px;
+    /* font-family: "Inconsolata",Lato,sans-serif; */
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.gridContainer{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: paleturquoise;
+}
+
+
