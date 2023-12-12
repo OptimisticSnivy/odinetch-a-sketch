@@ -17,6 +17,11 @@ body{
     flex-direction: row;
 }
 
+/* .delegate{ */
+/*     margin-left: 10px; */
+/*     height: 300px; */
+/*     width: 300px; */
+/* } */
 
 .grid{
     height: 30px;
@@ -28,7 +33,7 @@ body{
 }
 
 button{
-    background-color: royalblue;
+    background-color: #;
     color: white;
     font-weight: bold;
     border-radius: 10px;

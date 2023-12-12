@@ -10,7 +10,7 @@ let grid= document.createElement("div");
 let classNaming = "grid"
 grid.className = classNaming;
 
-let n = 16;
+let n = 10;
 
 for(let i=0; i<n; i++){
 	gridContainer.appendChild(grid.cloneNode(true));
