@@ -1,20 +1,20 @@
-body{
-    background-color: #1f2937;
+body {
+  background-color: #1f2937;
 }
 
-.container{
-    color: paleturquoise;
-    display: flex;
-    font-size: 100px;
-    /* font-family: "Inconsolata",Lato,sans-serif; */
-    flex-direction: column;
-    margin-left: 10px;
+.container {
+  color: paleturquoise;
+  display: flex;
+  font-size: 100px;
+  /* font-family: "Inconsolata",Lato,sans-serif; */
+  flex-direction: column;
+  margin-left: 10px;
 }
 
-.gridContainer{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
+.gridContainer {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* .delegate{ */
@@ -23,22 +23,22 @@ body{
 /*     width: 300px; */
 /* } */
 
-.grid{
-    height: 30px;
-    width: 30px;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-top: 10px;
-    background-color: paleturquoise;
+.grid {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: paleturquoise;
 }
 
-button{
-    background-color: #;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 80px;
-    border-style: none;
-    outline-style: none;
-    margin-left: 20px;
+button {
+  background-color: #;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80px;
+  border-style: none;
+  outline-style: none;
+  margin-left: 20px;
 }
